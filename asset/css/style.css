@@ -1,0 +1,57 @@
+/* * *******Some basic css*********** */
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.pg-bg {
+	background: -webkit-linear-gradient(to right, #6dd5fa, #2980b9);
+	background: linear-gradient(to right, #6dd5fa, #2980b9);
+}
+.pg-front {
+	background: -webkit-linear-gradient(right, #6dd5fa, #2980b9);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.half-width {
+	width: 50%;
+}
+a {
+	padding: 20px 40px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 100px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* *********Showcase area****** */
+#showcase {
+	width: 100%;
+}
+#showcase .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#showcase .content {
+	margin-top: 200PX;
+}
+#showcase h1 {
+	color: #575757;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 78px;
+	text-transform: capitalize;
+}
+#showcase p {
+	color: #828282;
+	font-size: 20px;
+	margin-bottom: 50PX;
+}
+#showcase img {
+	width: 100%;
+}
