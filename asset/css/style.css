@@ -38,7 +38,13 @@ h1 {
 	line-height: 78px;
 	text-transform: capitalize;
 }
-
+.t-center {
+	text-align: center;
+}
+h3 {
+	font-size: 32px;
+	color: #18191f;
+}
 /* *********Showcase area****** */
 #showcase {
 	width: 100%;
@@ -48,7 +54,7 @@ h1 {
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-#showcase,
+#showcase p,
 #about-me p {
 	color: #828282;
 	font-size: 20px;
@@ -77,4 +83,55 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+
+/* ************Recipie area*********** */
+#recipie p {
+	color: #252525;
+	font-size: 18px;
+}
+#recipie .grid {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#recipie .card {
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 30px;
+	max-width: 400px;
+}
+#recipie .card p {
+	color: #18191f;
+}
+#recipie .card img {
+	border-radius: 20px;
+	margin: 20px auto;
+	display: block;
+	height: 280px;
+	width: 366px;
+}
+#recipie .card .card-text {
+	margin: 10px 30px;
+}
+
+/* ************Number Area********** */
+#number {
+	margin: 100px 0px;
+	color: #18191f;
+}
+#number .all-number {
+	padding: 50px;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#number h4 {
+	margin-bottom: 10px;
+	font-size: 36px;
+	font-weight: 900;
+}
+#number p {
+	font-size: 22px;
 }
