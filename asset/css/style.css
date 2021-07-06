@@ -156,3 +156,14 @@ footer {
 	font-weight: 900;
 	margin-bottom: 10px;
 }
+
+/* **********Top BAr*********** */
+#top-bar {
+	height: 60px;
+	width: 100%;
+}
+#top-bar .details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
